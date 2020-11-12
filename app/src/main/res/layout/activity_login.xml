@@ -22,7 +22,7 @@
     <ImageView
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:src="@drawable/Loginmenu" />
+        android:src="@drawable/menulogin"/>
     
     <TextView
         android:layout_width="match_parent"
@@ -51,8 +51,7 @@
             <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                app:labelText="Username"
-                >
+                app:labelText="Username">
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
                     android:id="@+id/edtUserName"
@@ -65,8 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:labelText="Password"
-                android:layout_marginTop="10dp"
-                >
+                android:layout_marginTop="10dp">
 
                 <studio.carbonylgroup.textfieldboxes.ExtendedEditText
                     android:id="@+id/edtpassword"
@@ -82,7 +80,7 @@
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
                 android:layout_marginBottom="20dp"
-                app:nb_text="Login"
+                app:nb_text=" L O G I N "
                 android:id="@+id/loginbtn"
                 app:nb_textStyle="bold"
                 app:nb_borderColor="#FFFFFF"
@@ -97,10 +95,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Belum memiliki akun ? Daftar disini"
-                android:onClick="Registrasi"
+                android:id="@+id/btnRegistrasi"
                 android:background="@null"
-                android:textAllCaps="false"
-                />
+                android:textAllCaps="false"/>
 
         </LinearLayout>
 

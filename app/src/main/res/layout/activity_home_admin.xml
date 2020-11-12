@@ -25,6 +25,7 @@
             android:layout_width="140dp"
             android:layout_height="150dp"
             android:clickable="true"
+            android:id="@+id/cardDataBarang"
             app:cardCornerRadius="10dp"
             android:foreground="?android:attr/selectableItemBackground">
 
@@ -62,6 +63,7 @@
             android:layout_width="140dp"
             android:layout_height="150dp"
             android:clickable="true"
+            android:id="@+id/cardInputBarang"
             app:cardCornerRadius="10dp"
             android:layout_marginLeft="10dp"
             android:foreground="?android:attr/selectableItemBackground">
@@ -111,6 +113,7 @@
                 android:layout_width="140dp"
                 android:layout_height="150dp"
                 android:clickable="true"
+                android:id="@+id/cardProfile"
                 app:cardCornerRadius="10dp"
                 android:foreground="?android:attr/selectableItemBackground">
 
